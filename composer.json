@@ -10,12 +10,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ecopro\\Feign\\": "src/"
+            "Ecopro\\Http\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ecopro\\Feign\\Tests\\": "tests/"
+            "Ecopro\\Http\\Tests\\": "tests/"
         }
     },
     "require": {
