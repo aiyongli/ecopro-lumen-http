@@ -1,0 +1,24 @@
+{
+    "name": "aiyongli/ecopro-lumen-http",
+    "description": "ecopro php lumen http library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liaiyong",
+            "email": "aiyong.li@ecoprobio.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ecopro\\Feign\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ecopro\\Feign\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.4"
+    }
+}
