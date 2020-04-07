@@ -14,7 +14,7 @@ use stdClass;
 /**
  * 远程请求
  */
-class Builder
+class Broker
 {
     use Base;
 
